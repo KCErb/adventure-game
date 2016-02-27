@@ -1,0 +1,142 @@
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font: 400 16px/1.5 Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%; }
+
+#content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.user {
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 25px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  width: 280px;
+  margin: 20px; }
+
+.user > h3 {
+  margin: 0px; }
+
+.online {
+  border: 2px solid #7d9f35 !important; }
+
+.online > h3 {
+  color: #7d9f35; }
+
+.offline > h3 {
+  color: #a8383b; }
+
+.offline {
+  border: 2px solid #a8383b; }
+
+.userKey {
+  font-weight: 200;
+  font-size: 20px; }
+
+.timestamp {
+  font-weight: 200;
+  font-size: 12px; }
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  cursor: pointer; }
+
+.btn:hover {
+  text-decoration: none; }
+
+.btn-connect {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: #4191d4; }
+
+.btn-connect:hover {
+  background: #3584c6; }
+
+.btn-send {
+  background: #a8383b;
+  display: inline-block;
+  margin-left: 8px; }
+
+.btn-send:hover {
+  background: #c44f52; }
+
+.btn-unsolved {
+  background: #a8383b;
+  display: inline-block;
+  margin-left: 8px; }
+
+.btn-unsolved:hover {
+  background: #c44f52; }
+
+.btn-solved {
+  background: #7d9f35;
+  display: inline-block;
+  margin-left: 8px; }
+
+.btn-solved:hover {
+  background: #9ac146; }
+
+#user-session {
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: black;
+  color: #33ff66;
+  height: 200px;
+  overflow: scroll;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#user-session > p {
+  margin-left: 8px; }
+
+.css-input {
+  margin-left: 8px;
+  border-color: #ccc;
+  border-radius: 6px;
+  border-style: ridge;
+  border-width: 2px;
+  padding: 6px;
+  font-size: 18px;
+  width: 350px; }
+
+.css-input:focus {
+  outline: none; }
+
+.player-control {
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 5px 20px 10px 20px;
+  text-align: center;
+  width: 180px;
+  margin: 20px; }
+
+.character-name {
+  margin: 2px 0px 10px 2px;
+  font-size: 18px;
+  font-weight: bold; }
+
+#map-wrapper, #user-location {
+  height: 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
